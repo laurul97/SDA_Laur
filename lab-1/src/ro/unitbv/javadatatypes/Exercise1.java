@@ -41,6 +41,13 @@ public class Exercise1 {
 		} else {
 			System.out.println("max integer: " + nr1);
 		}
+		
+		int dist = Math.abs(nr1-nr2);
+		System.out.println("Distanta: "+dist);
+		
+		double raport = (double)nr1/nr2;
+		System.out.print("Raportul: ");
+		System.out.printf("%.3f%n", raport);
 	
 		}
 	}
